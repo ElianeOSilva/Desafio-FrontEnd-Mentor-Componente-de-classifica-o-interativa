@@ -10,6 +10,9 @@ body {
     background-color: #121417;
     font-family: overpass, sans-serif;
     color: #959eac;
+    height: 100vh;
+    display: grid;
+    place-items: center;    
 }
 
 .container {
@@ -101,6 +104,7 @@ footer {
     text-align: center;
     color: antiquewhite;
     font-size: 13px;
+    padding: 0;
 }
 
 footer a {
@@ -115,7 +119,7 @@ footer a {
         border-radius: 20px;
     }
 
-    .opcao ul li{
+    .opcao ul li {
         margin: 10px 3px;
     }
 
