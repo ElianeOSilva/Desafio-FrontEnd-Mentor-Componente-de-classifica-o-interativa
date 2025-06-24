@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121417;
+    font-family: overpass, sans-serif;
+    color: #959eac;
+}
+
+.container {
+    background-image: linear-gradient(#2c3542, #192538);
+    border-radius: 30px;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 450px;
+    /* Limita no desktop */
+    height: 400px;
+    padding: 2rem;
+}
+
+.estrela {
+    background-color: #4c4c4dea;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+h1 {
+    margin: 25px 0 20px;
+    color: aliceblue;
+}
+
+.opcao ul li {
+    background-color: #525353ea;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    width: 55px;
+    height: 55px;
+    padding: 18px;
+    list-style: none;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.numeros:hover,
+.container button:hover {
+    background-color: rgba(240, 248, 255, 0.884);
+    color: #1f252e;
+}
+
+.opcao ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container button {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container .selecionado {
+    background-color: hsl(25, 97%, 53%);
+    color: #1f252e;
+}
+
+#container2 {
+    text-align: center;
+}
+
+#container2 p {
+    padding: 7px 0px;
+}
+
+#p1 {
+    margin: 35px auto;
+    color: hsl(25, 97%, 53%);
+    background-color: #464749ea;
+    border-radius: 3rem;
+    height: 2rem;
+    width: 12rem;
+}
+
+footer {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e4a51e;
+}
+
+
+/* RESPONSIVO PARA TELAS PEQUENAS */
+@media (max-width: 480px) {
+    .container {
+        border-radius: 20px;
+    }
+
+    .opcao ul li{
+        margin: 10px 3px;
+    }
+
+}
